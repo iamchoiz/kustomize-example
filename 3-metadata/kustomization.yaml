@@ -5,7 +5,7 @@ resources:
 - deployment.yaml
 - service.yaml
 
-namespace: fastcampus
+namespace: default
 namePrefix: dev- ## Metadata Prefix
 nameSuffix: -devops
 

@@ -7,10 +7,11 @@ resources:
 
 replicas:
 - name: grafana
-  count: 2
+  count: 1
 - name: hello
   count: 1
 
+## 이미지 변경 및 버전 수정
 images:
 - name: grafana/grafana
   newTag: "8.2.2"
